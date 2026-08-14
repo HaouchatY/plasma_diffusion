@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plasma-diffusion"
+version = "1.0.0"
+description = "Diffusion priors for plasma tomography: Bayesian data-driven SXR reconstruction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Daniele Hamm", email = "daniele.hamm@epfl.ch" },
+    { name = "Youssef Haouchat", email = "youssef.haouchat@epfl.ch" },
+]
+keywords = ["plasma", "tomography", "diffusion models", "inverse problems", "bayesian"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "torch",
+    "tqdm",
+    "PyWavelets",
+    "scikit-image",
+]
+
+[project.optional-dependencies]
+rd = ["pyxu-diffops"]
+
+[tool.setuptools.packages.find]
+include = ["plasma_diffusion*"]
+
+[tool.setuptools.package-data]
+"plasma_diffusion.resources" = ["*.npy"]

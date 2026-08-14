@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+
+# tooling
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+
+# training artifacts
+checkpoints/
+runs/
