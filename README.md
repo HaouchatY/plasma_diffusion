@@ -6,7 +6,7 @@ learned priors.
 
 Companion code for:
 
-> D. Hamm\*, Y. Haouchat\*, C. Theiler, and M. Unser,
+> D. Hamm\*, Y. Haouchat\*, C. Theiler,
 > *"Diffusion Priors for Plasma Tomography: Bayesian Data-Driven Methods Applied to
 > SXR Reconstruction"*
 > (\*equal contribution — EPFL Swiss Plasma Center & Biomedical Imaging Group)
