@@ -1,5 +1,7 @@
 # plasma_diffusion
 
+**REMARK, important** : the current version of the repository is temporary: the code necessary to reproduce all the results of the paper will be updated before November 20 at the latest (this message will disappear)
+
 **Diffusion priors for plasma tomography** — Bayesian data-driven reconstruction of
 plasma emissivity profiles from tomographic measurements, using diffusion models as
 learned priors.
