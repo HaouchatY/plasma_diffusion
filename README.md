@@ -94,10 +94,7 @@ plasma_diffusion/
 
 ## Reproducing the paper
 
-The [`reproduce/`](reproduce/) folder contains the scripts and input data to reproduce every
-figure, table and number of the paper — phantom studies (DiffPIR, DiffRD and the RD baseline on
-SXR, DMPX and Pilatus), the experimental TCV reconstructions and all figures. See
-[`reproduce/README.md`](reproduce/README.md) for the mapping from paper items to scripts.
+See [`reproduce/`](reproduce/).
 
 ## Training your own prior
 
