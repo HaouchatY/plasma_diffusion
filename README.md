@@ -1,7 +1,5 @@
 # plasma_diffusion
 
-**REMARK, important** : the current version of the repository is temporary: the code necessary to reproduce all the results of the paper will be updated before November 20 at the latest (this message will disappear)
-
 **Diffusion priors for plasma tomography** — Bayesian data-driven reconstruction of
 plasma emissivity profiles from tomographic measurements, using diffusion models as
 learned priors.
@@ -75,6 +73,7 @@ reconstruction of experimental data from TCV shot 85270.
 ```
 plasma_diffusion/
 ├── tutorial.ipynb            end-to-end walkthrough (start here)
+├── reproduce/                scripts + inputs to reproduce all results of the paper
 ├── plasma_diffusion/
 │   ├── model.py              TinyUNet noise predictor + checkpoint loading
 │   ├── diffusion.py          DDPM schedule, DDIM updates
@@ -92,6 +91,13 @@ plasma_diffusion/
     ├── rd_operator_example.npz  precomputed anisotropic operator for DiffRD
     └── shot_85270.mat        one experimental TCV shot (SXR measurements + LIUQE)
 ```
+
+## Reproducing the paper
+
+The [`reproduce/`](reproduce/) folder contains the scripts and input data to reproduce every
+figure, table and number of the paper — phantom studies (DiffPIR, DiffRD and the RD baseline on
+SXR, DMPX and Pilatus), the experimental TCV reconstructions and all figures. See
+[`reproduce/README.md`](reproduce/README.md) for the mapping from paper items to scripts.
 
 ## Training your own prior
 

@@ -1,0 +1,13 @@
+# Environment used to verify the reproduction scripts (Python 3.12).
+# Install the package itself first:  pip install -e .   (from the repository root)
+torch>=2.0            # verified with 2.10.0 (CPU) and 2.7.1+cu118 (GPU)
+numpy==2.0.2
+scipy==1.17.1
+pandas==3.0.1
+scikit-image==0.26.0
+matplotlib==3.10.8
+PyWavelets==1.9.0
+tqdm==4.67.3
+# RD baseline / DiffRD operator (vendored tomo_fusion code depends on these exact revisions)
+pyxu @ git+https://github.com/pyxu-org/pyxu.git@dbb872a4291a7d0bfc2c6af0d7911f887891a57b
+pyxu_diffops @ git+https://github.com/dhamm97/pyxu-diffops.git@b46f8ba783918d0d6d172b24ab694b919e5ae089

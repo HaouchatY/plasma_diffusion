@@ -15,3 +15,7 @@ dist/
 # training artifacts
 checkpoints/
 runs/
+
+# reproduction outputs
+reproduce/results/
+reproduce/figures/
