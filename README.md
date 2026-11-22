@@ -1,7 +1,7 @@
-# plasma_diffusion
+# Diffusion Priors for Plasma Tomography
 
-Code for *Diffusion Priors for Plasma Tomography: Bayesian Data-Driven Methods Applied to SXR Reconstruction*
-(D. Hamm\*, Y. Haouchat\*, C. Theiler, M. Unser).
+Official code for *Diffusion Priors for Plasma Tomography: Bayesian Data-Driven Methods Applied to SXR Reconstruction*,
+D. Hamm\*, Y. Haouchat\*, C. Theiler, M. Unser.
 
 A diffusion model is trained as a prior on plasma emissivity profiles and used for posterior sampling
 with DiffPIR, giving a reconstruction and an uncertainty map for any diagnostic geometry.
