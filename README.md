@@ -46,13 +46,6 @@ See [`tutorial.ipynb`](tutorial.ipynb) for a complete example, and [`reproduce/`
 }
 ```
 
-## Acknowledgements
-
-This work was supported in part by the Swiss National Science Foundation and carried
-out within the framework of the EUROfusion Consortium, via the Euratom Research and
-Training Programme (Grant Agreement No 101052200 — EUROfusion), funded by the Swiss
-State Secretariat for Education, Research and Innovation (SERI).
-
 ## License
 
 [MIT](LICENSE)
